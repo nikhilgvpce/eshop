@@ -1,7 +1,7 @@
 const { default: mongoose } = require("mongoose");
 
 const dbUrl =
-  "mongodb+srv://nikhilgvpce:1tYYWMgMBsuPtM3u@cluster0.quwrkwy.mongodb.net/?retryWrites=true&w=majority";
+  process.env.MONGO_URI;
 
 function dbConnection() {
   mongoose.connect(dbUrl, {
