@@ -1,0 +1,40 @@
+.app-header {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.app-header-wrapper {
+  display: flex;
+  align-items: center;
+  background: #a435f0;
+  height: 8vh;
+}
+
+.app-header-link {
+  color: mistyrose;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+.app-header-cart-wrapper {
+  display: flex;
+}
+
+.course-search {
+    display: flex;
+    margin: 5% 0 5% 5%;
+    width: 50vw;
+    padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .course-search {
+    padding: 16px;
+  }
+}
+
+.app-header-cart-button {
+  display: flex;
+  width: 8vw;
+  padding: 16px;
+}

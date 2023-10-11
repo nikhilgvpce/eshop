@@ -1,0 +1,51 @@
+.course-login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+.course-login-form-inputs-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1% 0;
+    width: 30vw;
+}
+
+.course-login-form-email-input, .course-login-form-password-input {
+    padding: 5%;
+}
+
+
+.course-login-form-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    align-items: center;
+}
+
+.course-login-form-links-wrapper > button {
+    min-width: 10vw;
+    padding: 2%;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.course-login-form-login-link {
+    margin: 3% 3% 0;
+    background: #a435f0;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5vw;
+}
+
+@media screen and (min-width: 768px) {
+    .course-login-form-inputs-wrapper {
+        width: 20vw;
+    }
+}
+

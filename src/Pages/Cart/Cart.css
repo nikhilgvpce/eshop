@@ -1,0 +1,36 @@
+.cart-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    width: 50vw;
+}
+
+.cart-item-image {
+    width: 25vw;
+}
+
+.cart-checkout-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-checkout-btn {
+    margin: 3%;
+    padding: 12px;
+    min-width: 15vw;
+    background-color: #a435f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-checkout-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
